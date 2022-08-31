@@ -1,3 +1,5 @@
+//Lecon
+
 //Exemple d'utilisation de la super globale  $_GET  avec un formulaire :
 <html lang="en">
 <head>

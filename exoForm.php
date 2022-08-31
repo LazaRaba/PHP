@@ -1,3 +1,22 @@
+Créer un formulaire html qui va contenir les éléments suivants :
+action ="" method="post"
+-les inputs de type ="text" nom, prenom, login, (name : nom, prenom, login)
+-input de type="email" mail, (name : mail)
+-input de type="password" password, (name : password)
+-input de type="date" date, (name : date)
+-input de type="submit" ajouter (name : submit),
+NB pensez à ajouter un attribut name sur chaque input.
+
+Partie PHP :
+vérifier le clic sur le bouton submit (afficher si ce n'est pas cliqué),
+vérifier si tous les inputs sont bien remplis,
+afficher un message si il ne sont pas tous remplis,
+afficher un message si tous les champs sont rempli :
+Le compte $_POST['mail'] à été ajouté le $_POST['date'] (modifié)
+[14:05]
+Bonus : formater la date avec le pattern suivant  : jour num jour, mois, année (4 chiffres) : Mardi 31/08/2022 (modifié)
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

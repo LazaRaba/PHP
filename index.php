@@ -46,7 +46,7 @@ afficher avec echo la valeur de nbr1 et nbr2
     testNbr(10, 50);
 ?>
 
-Exercice fonctions et conditions :
+//EXERCICE SUR LES FONCTIONS:
 
 -Créer une fonction qui prend en entrée 3 valeurs et renvoie la somme des 3 valeurs.
 <?php
