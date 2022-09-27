@@ -1,11 +1,11 @@
 <?php
     class Maison{
-        public $nom;
+        public $nomMaison;
         public $longueur;
         public $largeur;
         public $nbrEtage;
         public function __construct($nom, $long, $larg, $etage){
-            $this->nom =$nom;
+            $this->nomMaison =$nom;
             $this->longueur =$long;
             $this->largeur =$larg;
             $this->nbrEtage=$etage;
